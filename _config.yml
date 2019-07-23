@@ -1,0 +1,23 @@
+# Site settings
+title: float_oat
+description: >
+    float_oat
+author: float_oat
+email: floatoat@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourname.github.io" # the base hostname & protocol for your site
+
+soundcloudURL: https://soundcloud.com/float_oat
+
+# Build settings
+include: [_pages]
+exclude: [README.md]
+markdown: kramdown
+permalink: /:year/:month/:title
+sass:
+    style: compressed
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+# - amp-jekyll # Acceletrated Mobile Pages
