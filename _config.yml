@@ -4,7 +4,7 @@ description: >
     float_oat
 author: float_oat
 email: floatoat@gmail.com
-baseurl: "/float_oat_site/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thomasnakagawa.github.io" # the base hostname & protocol for your site
 
 soundcloudURL: https://soundcloud.com/float_oat
