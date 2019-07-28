@@ -1,0 +1,44 @@
+<div class="site-logo">
+</div>
+<script type='text/javascript'>
+  var activated = false;
+
+  document.getElementsByClassName("site-logo")[0].addEventListener("click", activate);
+  document.getElementsByClassName("site-logo")[0].addEventListener("mouseover", spawnNew);
+
+  function activate(mouseEvent) {
+    activated = true;
+    spawnNew(mouseEvent);
+  }
+
+  function spawnNew(mouseEvent) {
+    if (activated) {
+      // create the new logo and place it somewhere
+      var newThing = document.createElement("div");
+      newThing.textContent = randomText();
+      newThing.setAttribute("class", "site-logo-thingy");
+      newThing.style.position = "absolute";
+      var randomPos = getRandomPosition(newThing);
+      newThing.style.left = randomPos[0] + "px";
+      newThing.style.top = randomPos[1] + "px";
+      newThing.style.width = randomSize() + "px";
+      newThing.style.height = randomSize() + "px";
+      newThing.style.zIndex = -100;
+      document.body.appendChild(newThing);
+    }
+  }
+
+  function getRandomPosition(element) {
+    var posx = (Math.random() * document.body.clientWidth).toFixed();
+    var posy = (Math.random() * document.body.clientHeight).toFixed();
+    return [posx, posy];
+  }
+
+  function randomSize() {
+    return ((Math.random() * 200) + 50).toFixed();
+  }
+
+  function randomText() {
+    return "";
+  }
+</script>
