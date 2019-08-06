@@ -21,6 +21,7 @@
 }
 
 .c-page__footer {
+    color: grey;
     margin-bottom: 10rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -40,5 +41,23 @@
     p {
         @include fs--body;
         color: $c-base__01;
+    }
+}
+
+.app-icon {
+    width: 70px;
+}
+
+.google-play-button {
+    display: inline;
+    width: 150px;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        width: 20%;
     }
 }
