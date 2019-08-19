@@ -1,4 +1,10 @@
 <header class="c-page__header">
-        {% include logo.html %}
-        <a href="/"><h1>{{ site.description }}</h1></a>
+    {% include logo.html %}
+    <a href="/"><h1>{{ site.description }}</h1></a>
+    <nav class="site-nav">
+      {% for navItem in site.data.nav %}
+        <a class="page-link {% if page.url contains navItem.href %}active{% endif %}" href="{{ navItem.href | relative_url }}">{{navItem.title | escape }}</a>
+      {% endfor %}
+      </div>
+    </nav>
 </header>

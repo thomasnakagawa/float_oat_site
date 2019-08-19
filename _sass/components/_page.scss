@@ -7,7 +7,7 @@
 }
 
 .c-page__header {
-    margin-bottom: 10rem; // 100px
+    margin-bottom: 50px;
 
     h1 {
         margin-bottom: 2.5rem; // 25px
@@ -17,6 +17,25 @@
 
     p {
         @include fs--meta;
+    }
+
+    .site-nav {
+      .page-link {
+        font-size: 15px;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+          margin-right: 20px;
+
+          &.after {
+            content: "/";
+          }
+        }
+
+        &.active {
+          color: $c-accent__yellow;
+        }
+      }
     }
 }
 
