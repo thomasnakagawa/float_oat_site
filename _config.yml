@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thomasnakagawa.github.io" # the base hostname & protocol for your site
 
 soundcloudURL: https://soundcloud.com/float_oat
+twitterURL: https://twitter.com/float_oat
 
 # Build settings
 include: [_pages]
