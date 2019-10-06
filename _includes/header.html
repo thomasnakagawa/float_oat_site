@@ -2,6 +2,7 @@
     {% include logo.html %}
     <a href="/"><h1>{{ site.description }}</h1></a>
     <nav class="site-nav">
+      <a class="page-link {% if page.isHome %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
       {% for navItem in site.data.nav %}
         <a class="page-link {% if page.url contains navItem.href %}active{% endif %}" href="{{ navItem.href | relative_url }}">{{navItem.title | escape }}</a>
       {% endfor %}

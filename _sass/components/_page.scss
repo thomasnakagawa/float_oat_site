@@ -80,3 +80,17 @@
         width: 20%;
     }
 }
+
+.project {
+    display: flex;
+    flex-direction: row;
+
+    .left-col {
+        width: 220px;
+        margin-right: 15px;
+    }
+
+    .right-col {
+        flex-grow: 1;
+    }
+}
