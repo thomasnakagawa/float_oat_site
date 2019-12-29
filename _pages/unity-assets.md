@@ -17,6 +17,9 @@ permalink: /unity-assets/
 </div>
 
 <h2>Open source assets</h2>
+<b>Prefab Menu Tool</b> - Editor tool that allows you to add your own prefabs to the GameObject menu<br/>
+<a target="_blank" href="https://github.com/thomasnakagawa/UnityPrefabMenuTool">Source on Github</a>
+
 <b>OatsUtil</b> - Collection of methods and extensions for Unity components, C# collections and numeric operations<br/>
 <a href="https://github.com/thomasnakagawa/OatsUtil/raw/master/OatsUtil.unitypackage">Download package</a><br/>
 <a target="_blank" href="https://github.com/thomasnakagawa/OatsUtil">Source on Github</a>
