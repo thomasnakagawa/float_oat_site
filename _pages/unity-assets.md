@@ -6,7 +6,17 @@ permalink: /unity-assets/
 <h2>Assets on Unity Asset Store</h2>
 <div class="project">
     <div class="left-col">
-    <a target="_blank" href="https://www.assetstore.unity3d.com/#!/content/152321"><img src="{{site.baseurl}}/assets/images/knobs_440.png" alt="3D Interactive Knobs, Sliders and Buttons screenshot"></a>
+        <a target="_blank" href="https://assetstore.unity.com/packages/slug/159547"><img src="{{site.baseurl}}/assets/images/osui_440.png" alt="90's Desktop OS UI"></a>
+    </div>
+    <div class="right-col">
+        <b>90's Desktop OS UI</b> - UI pack that looks of 90's desktop operating systems<br/>
+        <a target="_blank" href="https://assetstore.unity.com/packages/slug/159547">View on Unity Asset Store</a><br/>
+        <a target="_blank" href="{{site.baseurl}}/assets/files/osui_asset_documentation.pdf">Documentation PDF</a>
+    </div>
+</div>
+<div class="project">
+    <div class="left-col">
+        <a target="_blank" href="https://www.assetstore.unity3d.com/#!/content/152321"><img src="{{site.baseurl}}/assets/images/knobs_440.png" alt="3D Interactive Knobs, Sliders and Buttons screenshot"></a>
     </div>
     <div class="right-col">
         <b>3D Interactive Knobs, Sliders and Buttons</b> - Asset package for adding in-world controls<br/>

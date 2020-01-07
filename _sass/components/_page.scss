@@ -86,7 +86,8 @@
     flex-direction: row;
 
     .left-col {
-        width: 220px;
+        min-width: 130px;
+        max-width: 130px;
         margin-right: 15px;
     }
 
